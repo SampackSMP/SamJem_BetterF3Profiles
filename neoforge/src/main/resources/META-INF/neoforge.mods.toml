@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "*"
+license = "MIT"
+
+[[mods]]
+modId = "betterf3pp"
+version = "${version}"
+displayName = "BetterF3++"
+authors = "Cwall"
+description = '''
+Splits your BetterF3 debug HUD into named profiles you can tab between, and lets you hide
+individual misc lines.
+'''
+
+[[mixins]]
+config = "betterf3pp.mixins.json"
+
+[[dependencies.betterf3pp]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.betterf3pp]]
+modId = "betterf3"
+type = "required"
+versionRange = "[11.0.0,12.0.0)"
+ordering = "AFTER"
+side = "CLIENT"

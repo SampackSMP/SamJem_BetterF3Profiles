@@ -1,0 +1,27 @@
+{
+  "text.betterf3.module.tabbar": "Profile Tabs",
+  "format.betterf3pp.tabbar": "%s",
+
+  "config.betterf3pp.profiles_button": "Profiles...",
+  "config.betterf3pp.title.profiles": "BetterF3++ Profiles",
+  "config.betterf3pp.profiles.new": "New",
+  "config.betterf3pp.profiles.duplicate": "Duplicate",
+  "config.betterf3pp.profiles.rename": "Rename",
+  "config.betterf3pp.profiles.set_active": "Set Active",
+  "config.betterf3pp.profiles.delete": "Delete",
+  "config.betterf3pp.profiles.misc_lines": "Misc Lines",
+  "config.betterf3pp.profiles.edit_left": "Edit Left Modules",
+  "config.betterf3pp.profiles.edit_right": "Edit Right Modules",
+  "config.betterf3pp.profiles.name": "Profile name",
+
+  "config.betterf3pp.title.misc_lines": "Misc Lines: %s",
+  "config.betterf3pp.misc.hide_new": "Hide new lines by default:",
+  "config.betterf3pp.misc.forget": "Forget remembered lines",
+  "config.betterf3pp.misc.empty": "No misc lines seen yet. Open F3 in a world first.",
+
+  "config.betterf3pp.done": "Done",
+  "config.betterf3pp.confirm": "Confirm",
+  "config.betterf3pp.cancel": "Cancel",
+
+  "debug.betterf3pp.profile.switched": "Profile: %s"
+}

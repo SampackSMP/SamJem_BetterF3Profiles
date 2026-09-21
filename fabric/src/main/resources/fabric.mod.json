@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "betterf3pp",
+  "version": "${version}",
+  "name": "BetterF3++",
+  "description": "Splits your BetterF3 debug HUD into named profiles you can tab between, and lets you hide individual misc lines.",
+  "authors": [
+    "Cwall"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.betterf3pp.BetterF3PPFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": [">=1.21.1", "<1.21.2"],
+    "betterf3": [">=11.0.0", "<12.0.0"]
+  },
+  "mixins": [
+    "betterf3pp.mixins.json"
+  ]
+}

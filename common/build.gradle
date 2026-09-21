@@ -1,0 +1,26 @@
+architectury {
+    common(rootProject.platforms.split(","))
+}
+
+configurations {
+    shadowCommon
+}
+
+dependencies {
+    // Only used for the @Environment annotations and the mixin dependency.
+    modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
+
+    // BetterF3 itself. The Fabric jar is used at compile time because the mod
+    // classes we target (me.cominixo.betterf3.*) are identical across loaders;
+    // only Minecraft references are remapped, and Loom handles those.
+    modCompileOnly "maven.modrinth:betterf3:${rootProject.betterf3_fabric_version}"
+
+    compileOnly "org.jetbrains:annotations:24.1.0"
+
+    testImplementation "org.junit.jupiter:junit-jupiter:5.10.2"
+    testRuntimeOnly "org.junit.platform:junit-platform-launcher"
+}
+
+tasks.named("test") {
+    useJUnitPlatform()
+}
