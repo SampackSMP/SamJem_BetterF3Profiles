@@ -1,4 +1,4 @@
-# BetterF3++
+# SamJem: BetterF3 Tabs & Profiles
 
 An addon for [BetterF3](https://modrinth.com/mod/betterf3) that adds two things to the debug HUD:
 

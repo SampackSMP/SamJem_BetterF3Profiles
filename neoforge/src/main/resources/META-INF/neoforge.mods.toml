@@ -5,7 +5,7 @@ license = "MIT"
 [[mods]]
 modId = "betterf3pp"
 version = "${version}"
-displayName = "BetterF3++"
+displayName = "SamJem: BetterF3 Tabs & Profiles"
 authors = "Cwall"
 description = '''
 Splits your BetterF3 debug HUD into named profiles you can tab between, and lets you hide
